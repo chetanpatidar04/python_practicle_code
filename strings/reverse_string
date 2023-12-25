@@ -1,0 +1,16 @@
+# WTP to reverse a string in python
+
+# def reverse_str(string):
+#     return (string[::-1])
+
+#without using sclice
+
+def reverse_str(string):
+    test = ""
+    for i in string:
+        test = i + test
+    return test    
+
+if __name__ == '__main__':
+    string = str(input("Enter a string "))
+    print(reverse_str(string))

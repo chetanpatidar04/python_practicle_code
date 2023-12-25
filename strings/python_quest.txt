@@ -1,0 +1,4 @@
+what is __name__ and __main in python?
+numeric and isdigit in python ?
+
+que 3 non char
